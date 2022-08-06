@@ -1,0 +1,165 @@
+
+@media screen and (min-width: 100px) and (max-width: 320px) {  
+
+    .jumbotron {
+
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)),
+        url('../public/images/jumbotron-exSmall.jpg');
+        
+        min-height:213px;
+        max-height:213px;
+       
+    }
+    
+    .jumbotron__title{
+
+        font-size: 1.125em;
+
+    }
+
+}
+
+/* pakai 320 */
+
+@media screen and (min-width: 321px) and (max-width: 468px) {
+        
+    .jumbotron {
+
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)),
+        url('../public/images/jumbotron-Small.jpg');
+       
+        min-height:312px;
+        max-height:440px;
+        
+    }
+    
+    .jumbotron__title{
+
+        font-size: 1.25em;
+
+    }
+
+}
+
+/* pakai 468 */
+
+@media screen and (min-width: 469px) and (max-width: 660px) {
+    
+    .jumbotron {
+
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)),
+        url('../public/images/jumbotron-Middle.jpg');
+       
+        min-height:440px;
+        max-height:512px;
+       
+    }
+        
+    .jumbotron__title{
+
+        font-size: 1.375em;
+
+    }
+
+}
+
+/* pakai 660 */
+
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+
+    
+    .jumbotron {
+    
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)),
+          url('../public/images/jumbotron-Medium.jpg');
+         
+          min-height:512px;
+          max-height:660px;
+            
+    }
+
+    
+    .jumbotron__title{
+
+        font-size: 3rem;
+    }
+
+
+}
+    
+/* pakai 768 */
+
+@media screen and (min-width: 990px) and (max-width: 1023px) {
+    
+    .jumbotron {
+
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)),
+        url('../public/images/jumbotron-exMedium.jpg');
+        
+        min-height:660px;
+        max-height:682px;
+       
+    }
+
+    
+    .jumbotron__title{
+
+        font-size: 3rem;
+    }
+
+
+}
+
+/* pakai 990 */
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+        
+    .jumbotron {
+
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)),
+        url('../public/images/jumbotron-Large.jpg');
+       
+        min-height:682px;
+        max-height:800px;
+       
+    }
+    
+    .jumbotron__title{
+
+        font-size: 3rem;
+    }
+
+
+}
+
+/* pakai 1024 */
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+    
+    .jumbotron {
+
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.342)),
+        url('../public/images/jumbotron-exLarge.jpg');
+        
+        min-height:800px;
+        max-height:800px;
+       
+    }
+    
+    .jumbotron__title{
+
+        font-size: 3rem;
+    }
+
+
+}
+
+/* pakai 1600 */

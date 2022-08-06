@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Food Court</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free restaurant catalogue for you">
+    <meta name="theme-color" content="#db0000"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Add to Home">
+    <link rel="manifest" href="../public/manifest.json">
+    <link rel="icon" href="../public/icons/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="../public/icons/icon-152x152.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+    <script src="../scripts/homescreen/addtohomescreen.js"></script>
+    <script>
+    addToHomescreen();
+    </script>
+    
+</head>
+<body>    
+    <a href="#mainContent" class="skip-link" style="display:inline-block;top:-40;left:-10;margin:0;z-index:100;">By Pass</a>   
+<header class="app-bar" style="top:0;margin:0">
+       
+    <div class="app-bar__menu">
+        <button id="hamburgerButton" style="min-height:44px;min-width:44px;" tabindex="0" >☰</button>
+    </div>
+    <div class="app-bar__brand">
+        <h1>Food Court</h1>         
+    </div>
+
+    <nav id="navigationDrawer" class="app-bar__navigation">
+        <ul>
+            <li><a href="#/now-playing" style="min-height:44px;min-width:44px;display:inline-block"  tabindex="0">Home</a></li>
+            <li><a href="#/upcoming"  style="min-height:44px;min-width:44px;display:inline-block" tabindex="0">Desc.</a></li>
+            <li><a href="#/like" style="min-height:44px;min-width:44px;display:inline-block" tabindex="0">Favorites</a></li>
+            <li><a href="https://wwww.facebook.com/woro.rn" style="min-height:44px;min-width:44px;display:inline-block" tabindex="0">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+<main id="mainContent" tabindex="0"></main>
+<footer>
+    <center>
+        <div class="footer" tabindex="0" width="100%" align="center"> 
+               
+            <p align="center" width="100%">Copyright&copy;<span class="myYear">2021</span> - Food Court</p>
+            <script type="text/javascript">const data=document.querySelector(".myYear"); data.innerHTML=new Date().getFullYear(); </script>
+           
+        </div>
+    </center>
+    
+</footer>
+</body>
+</html>
